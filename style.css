@@ -54,6 +54,7 @@ body {
 .bottom {
     display: flex;
     flex-direction: column;
+    padding-top: 60px;
 }
 
 .main-container {
@@ -74,6 +75,7 @@ form {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column; 
+    margin-bottom: 50px;
 }
 
 .bottom button {
