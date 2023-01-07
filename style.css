@@ -29,6 +29,23 @@ html, body {
     padding: 0 40px;
 }
 
+.form-row input {
+    border: 1px solid rgb(70, 69, 69);
+    border-radius: 3px;
+
+    width: 175px;
+
+    padding: 5px;
+}
+
+.form-row input:focus {
+    border: 2px solid green;
+}
+
+.form-row input:invalid {
+    border: 2px solid red;
+}
+
 .bottom {
     display: flex;
 }
@@ -50,8 +67,28 @@ html, body {
 form {
     background-color: #FFFFFF;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
+}
+
+.bottom button {
+    font: 16px;
+    font-weight: bold;
+
+    background-color: #F8AD69;
+    color: #000000;
+
+    padding: 10px 40px;
+
+    border: none;
+    border-radius: 3px;
+}
+
+.bottom button:hover {
+    background-color: #d69150;
+}
+
+.bottom button:active {
+    background-color: #d8771c;
 }
 
 /* img {
