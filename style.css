@@ -12,6 +12,7 @@ html, body {
 .form-row {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .bottom {
@@ -25,6 +26,11 @@ html, body {
 
 .top,.bottom {
     background-color: #F9FAFB;
+    padding: 50px;
+}
+
+.description {
+    padding: 10px;
 }
 
 form {
@@ -34,14 +40,25 @@ form {
     
 }
 
-img {
+/* img {
     display: block;
     max-width: 525px;
     height: auto;
     width: auto;
+} */
+
+.left {
+    background-image: url("basketball-stephen-baker.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
 }
 
 .pic-logo {
-    position: absolute;
-    background-color: #F9FAFB;
+    display: flex;
+    background: rgba(249,250,251, .3);
+    justify-content: center;
+    width: 400px;
+    font-size: 24px;
+    margin-top: 40%;
 }
